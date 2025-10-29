@@ -7,23 +7,86 @@
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
     header { background: #003366; color: white; padding: 1rem; text-align: center; }
+    nav {
+      background: #002244;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; }
     main { max-width: 800px; margin: 2rem auto; background: white; padding: 2rem; border-radius: 8px; }
-    footer { text-align: center; font-size: 0.8rem; color: #777; margin-top: 2rem; }
+    section { margin-bottom: 2rem; }
+    footer { text-align: center; font-size: 0.8rem; color: #777; margin-top: 2rem; padding: 1rem 0; }
     a { color: #003366; text-decoration: none; }
+    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
   <header>
     <h1>Somnath Chindhe</h1>
-    <p>Doctoral Researcher | Population Genetics | Genomics</p>
+    <p>Natural Selection | Population Genetics | Genomics</p>
   </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#talks">Talks</a>
+    <a href="#blogs">Random Blogs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
   <main>
-    <h2>About Me</h2>
-    <p>I am a Doctoral Researcher at the University of Turku focusing on population genetics and the genetic effects of natural selection using ancient DNA and biobank-scale datasets.</p>
-    <h2>Contact</h2>
-    <p>Email: somnath.chindhe@utu.fi</p>
-    <p>GitHub: <a href="https://github.com/somnath-utu">somnath-utu</a></p>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a Doctoral Researcher at the University of Turku focusing on population genetics and the genetic effects of natural selection using ancient DNA and biobank-scale datasets.</p>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:somnath.chindhe@utu.fi">somnath.chindhe@utu.fi</a></p>
+      <p>GitHub: <a href="https://github.com/somnath-utu" target="_blank">somnath-utu</a></p>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <p>My research explores how historical selection pressures — particularly infectious diseases — have shaped genetic diversity in the Finnish population, integrating ancient and modern genomic data.</p>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul>
+        <li><em>Coming soon...</em></li>
+      </ul>
+    </section>
+
+    <section id="talks">
+      <h2>Talks & Presentations</h2>
+      <ul>
+        <li><em>ISBA11, Turin (2025)</em> — Finnish selection signals in ancient and modern genomes.</li>
+      </ul>
+    </section>
+
+    <section id="blogs">
+      <h2>Random Blogs</h2>
+      <p>Here, I occasionally post informal reflections, thoughts on science, and discussions about life as a researcher.</p>
+      <ul>
+        <li><strong><a href="#">Why evolution never really ends</a></strong> — A short piece about how adaptation continues in modern humans.</li>
+        <li><strong><a href="#">How bottlenecks shape genetic stories</a></strong> — Reflections on drift and founder effects in small populations.</li>
+        <li><strong><a href="#">A day in the life of a PhD student</a></strong> — Notes on balancing research, writing, and self-care.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:somnath.chindhe@utu.fi">somnath.chindhe@utu.fi</a></p>
+      <p>GitHub: <a href="https://github.com/somnath-utu" target="_blank">somnath-utu</a></p>
+    </section>
   </main>
+
   <footer>
     &copy; 2025 Somnath Chindhe
   </footer>

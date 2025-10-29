@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Somnath Chindhe - Blogs</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+    header { background: #003366; color: white; padding: 1rem; text-align: center; }
+    nav {
+      background: #002244;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 0.5rem 0;
+    }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 800px; margin: 2rem auto; background: white; padding: 2rem; border-radius: 8px; }
+    section { margin-bottom: 2rem; }
+    footer { text-align: center; font-size: 0.8rem; color: #777; margin-top: 2rem; padding: 1rem 0; }
+    a { color: #003366; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Blog-specific trim */
+    article { margin-bottom: 3rem; }
+    .meta { font-size: 0.9rem; color: #666; margin: 0.25rem 0 1rem; }
+    h1, h2, h3 { line-height: 1.2; }
+    .tags { margin-top: 0.25rem; font-size: 0.85rem; color: #555; }
+    .tags span { background: #eef3ff; border: 1px solid #d6e2ff; padding: 0.15rem 0.5rem; border-radius: 999px; margin-right: 0.4rem; }
+    blockquote { border-left: 4px solid #003366; padding-left: 1rem; color: #444; margin: 1rem 0; }
+    ul, ol { padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Somnath Chindhe</h1>
+    <p>Natural Selection | Population Genetics | Genomics</p>
+  </header>
+
+  <nav>
+    <a href="index.html#about">About</a>
+    <a href="index.html#research">Research</a>
+    <a href="index.html#publications">Publications</a>
+    <a href="index.html#talks">Talks</a>
+    <a href="blog.html">Random Blogs</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="blog-posts">
+      <article>
+        <h2>🧬 Rationale</h2>
+        <p class="meta">Posted on 29 October 2025 • ~5 min read</p>
+        <p>Throughout human evolution, infectious diseases — and the adaptations to them — have been major forces shaping our genetic diversity. While much of modern genetic variation can be explained by evolutionary processes such as genetic drift, admixture, and natural selection, perhaps the most fascinating among them is selection, as it reflects how humans have adapted to different environmental conditions. However, selection in the genome is not always straightforwardly “positive.” There are several forms of it — directional selection, purifying selection, and balancing selection — each leaving distinct genetic signatures.</p>
+
+        <p>It’s clear that humans have adapted to a wide range of selective pressures, environmental changes, and diets, but adaptation to pathogens stands out as particularly influential. During most epidemics, individuals carrying alleles that made them more susceptible to infection often did not survive, and their genetic variants were not passed on to future generations. As a result, most genome-wide selection scans across global populations repeatedly highlight the HLA region and other immunity-related loci, reflecting that adaptation to pathogens was one of the strongest and most important evolutionary forces in humans.</p>
+
+        <p>At first glance, one might assume that all selected alleles are beneficial and increase overall fitness. However, this is not entirely true. Many adaptive changes that were advantageous in the past are now linked to an increased risk of chronic diseases — a concept known as antagonistic pleiotropy. This phenomenon has been observed in several autoimmune and inflammatory diseases, where alleles once beneficial for pathogen resistance now predispose individuals to harmful immune responses.</p>
+
+        <p><strong>This raises some interesting questions:</strong></p>
+        <ul>
+          <li>If certain diseases are harmful, why hasn’t natural selection removed the genes that increase their risk?</li>
+          <li>How — and why — has the genetic risk for these diseases evolved over time?</li>
+        </ul>
+
+        <p>To begin answering these questions, it’s important to understand how genetics contributes to disease susceptibility. Most disease traits are polygenic, meaning that they arise from the combined effects of many genetic variants interacting with environmental factors. The relative influence of genes and environment varies for each disease.</p>
+
+        <p><strong>If a disease remains common despite being harmful, several explanations are possible:</strong></p>
+        <ol>
+          <li>For some diseases, genetics plays only a minor role, and environmental factors are the main drivers.</li>
+          <li>Certain diseases, such as cancer, arise from somatic mutations that occur during one’s lifetime.</li>
+          <li>Some diseases have become more frequent due to genetic drift, particularly in populations with small effective sizes or historical bottlenecks (e.g., Eastern Finns).</li>
+          <li>Admixture with genetically distinct populations can introduce new risk alleles that natural selection has not yet had time to remove.</li>
+          <li>Most importantly, natural selection itself can create trade-offs — alleles that once provided an advantage (e.g., protection from infection in early life) may now increase susceptibility to autoimmune or chronic diseases later in life.</li>
+        </ol>
+
+        <blockquote>
+          <strong>Conclusion.</strong> Understanding these evolutionary trade-offs can help explain why certain disease risks persist today. By mapping selection signals — and intersecting them with disease genetics — we can better connect past adaptations to present-day health, especially in populations with unique histories like Finland.
+        </blockquote>
+
+        <p class="tags">
+          <span>evolution</span><span>genetics</span><span>selection</span><span>autoimmunity</span>
+        </p>
+      </article>
+
+      <!-- Template for future posts:
+      <article>
+        <h2>Post Title</h2>
+        <p class="meta">Posted on DD Month YYYY • ~X min read</p>
+        <p>Intro paragraph…</p>
+      </article>
+      -->
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Somnath Chindhe
+  </footer>
+</body>
+</html>
